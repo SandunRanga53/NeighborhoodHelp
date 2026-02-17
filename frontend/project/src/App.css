@@ -1,0 +1,41 @@
+.App {
+  min-height: 100vh;
+  background: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* App pages (Introduction, Explore, Messages, Profile) */
+.app-page {
+  min-height: calc(100vh - 56px);
+  padding: 2rem 1.25rem;
+  background: #f8fafc;
+}
+
+.app-page__inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.app-page__title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #111;
+  margin: 0 0 0.5rem;
+}
+
+.app-page__subtitle {
+  font-size: 1rem;
+  color: #6b7280;
+  margin: 0 0 2rem;
+}
+
+.app-page__placeholder {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  border: 1px solid #e5e7eb;
+  color: #6b7280;
+}

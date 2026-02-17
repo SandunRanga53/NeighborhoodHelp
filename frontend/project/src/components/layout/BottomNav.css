@@ -1,0 +1,86 @@
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-top: 1px solid #e5e7eb;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.06);
+  z-index: 100;
+  padding-bottom: env(safe-area-inset-bottom, 0);
+}
+
+.bottom-nav__list {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottom-nav__item {
+  flex: 1;
+  margin: 0;
+}
+
+.bottom-nav__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  width: 100%;
+  padding: 0.5rem;
+  background: none;
+  border: none;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #9ca3af;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.bottom-nav__link:hover {
+  color: #6b7280;
+}
+
+.bottom-nav__link--active {
+  color: #111;
+}
+
+.bottom-nav__link--active .bottom-nav__icon {
+  color: #22c55e;
+}
+
+.bottom-nav__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+
+.bottom-nav__icon-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-nav__badge {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ef4444;
+}
+
+.bottom-nav__link:focus-visible {
+  outline: 2px solid #22c55e;
+  outline-offset: -2px;
+}

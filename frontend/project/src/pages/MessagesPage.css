@@ -1,0 +1,38 @@
+.messages-page {
+  padding-top: 1rem;
+  padding-bottom: 80px;
+}
+
+.messages-page__header {
+  padding: 0 1.25rem 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.messages-page__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111;
+  margin: 0 0 0.25rem;
+}
+
+.messages-page__subtitle {
+  font-size: 0.95rem;
+  color: #6b7280;
+  margin: 0;
+}
+
+.messages-page__main {
+  padding: 0 1.25rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.messages-page__placeholder {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  border: 1px solid #e5e7eb;
+  color: #6b7280;
+  text-align: center;
+}

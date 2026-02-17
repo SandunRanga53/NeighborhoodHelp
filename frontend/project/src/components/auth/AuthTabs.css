@@ -1,0 +1,40 @@
+.auth-tabs {
+  display: flex;
+  background: #fff;
+  border-radius: 12px;
+  padding: 4px;
+  gap: 4px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.auth-tabs__tab {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: transparent;
+  color: #9ca3af;
+  transition: all 0.2s ease;
+}
+
+.auth-tabs__tab--active {
+  background: #fff;
+  color: #000;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.auth-tabs__tab--inactive:hover {
+  color: #6b7280;
+}
+
+.auth-tabs__tab:focus-visible {
+  outline: 2px solid #22c55e;
+  outline-offset: 2px;
+}

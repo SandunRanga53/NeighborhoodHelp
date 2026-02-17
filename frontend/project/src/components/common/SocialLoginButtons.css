@@ -1,0 +1,61 @@
+.social-login {
+  margin-top: 1.5rem;
+}
+
+.social-login__divider {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #9ca3af;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.social-login__divider::before,
+.social-login__divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: #e5e7eb;
+}
+
+.social-login__divider span {
+  padding: 0 1rem;
+}
+
+.social-login__buttons {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.social-login__btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #fff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #000;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.social-login__btn:hover {
+  border-color: #d1d5db;
+  background: #f9fafb;
+}
+
+.social-login__btn:focus-visible {
+  outline: 2px solid #22c55e;
+  outline-offset: 2px;
+}
+
+.social-login__logo {
+  flex-shrink: 0;
+}

@@ -1,0 +1,45 @@
+.neighborhood-selector {
+  margin-bottom: 1.5rem;
+}
+
+.neighborhood-selector__label {
+  display: block;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #000;
+  margin-bottom: 0.75rem;
+}
+
+.neighborhood-selector__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.neighborhood-selector__chip {
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.neighborhood-selector__chip:hover {
+  border-color: #22c55e;
+  color: #22c55e;
+}
+
+.neighborhood-selector__chip--active {
+  background: #22c55e;
+  border-color: #22c55e;
+  color: #fff;
+}
+
+.neighborhood-selector__chip:focus-visible {
+  outline: 2px solid #22c55e;
+  outline-offset: 2px;
+}

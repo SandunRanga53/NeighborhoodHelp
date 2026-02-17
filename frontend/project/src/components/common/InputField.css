@@ -1,0 +1,76 @@
+.input-field {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+  min-height: 48px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.input-field:focus-within {
+  border-color: #22c55e;
+  box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.15);
+}
+
+.input-field__icon {
+  display: flex;
+  align-items: center;
+  margin-right: 0.75rem;
+  color: #9ca3af;
+  flex-shrink: 0;
+}
+
+.input-field__icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.input-field__input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: #000;
+  background: transparent;
+  min-width: 0;
+}
+
+.input-field__input::placeholder {
+  color: #9ca3af;
+}
+
+.input-field__toggle,
+.input-field__check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.5rem;
+  background: none;
+  border: none;
+  padding: 0.25rem;
+  cursor: pointer;
+  color: #9ca3af;
+  flex-shrink: 0;
+}
+
+.input-field__toggle:hover {
+  color: #6b7280;
+}
+
+.input-field__check {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #22c55e;
+  color: #fff;
+  cursor: default;
+}
+
+.input-field__check svg {
+  width: 14px;
+  height: 14px;
+}

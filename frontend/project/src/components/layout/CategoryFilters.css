@@ -1,0 +1,43 @@
+.category-filters {
+  padding: 0.75rem 1.25rem;
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.category-filters__scroll {
+  display: flex;
+  gap: 0.5rem;
+  min-width: max-content;
+  padding-bottom: 2px;
+}
+
+.category-filters__chip {
+  flex-shrink: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #374151;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.category-filters__chip:hover {
+  border-color: #22c55e;
+  color: #22c55e;
+}
+
+.category-filters__chip--active {
+  background: #22c55e;
+  border-color: #22c55e;
+  color: #fff;
+}
+
+.category-filters__chip:focus-visible {
+  outline: 2px solid #22c55e;
+  outline-offset: 2px;
+}
