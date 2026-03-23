@@ -23,7 +23,7 @@ It enables users to:
 - 📊 User Dashboard (View Requests & Activities)
 - 🧑‍🤝‍🧑 Volunteer Dashboard
 - 📱 Responsive Design (Mobile Friendly)
-- 🔎 Task Matching System (based on availability/location)
+- 🔎 Task Matching System
 
 ---
 
@@ -32,13 +32,15 @@ It enables users to:
 **Frontend**
 - HTML5
 - CSS3
-- Bootstrap
+- JavaScript
+- Bootstrap / React (customize if needed)
 
 **Backend**
-- Python (Django Framework)
+- Node.js
+- Express.js
 
 **Database**
-- SQLite / MySQL
+- MongoDB / MySQL
 
 ---
 
@@ -59,23 +61,11 @@ git clone https://github.com/SandunRanga53/NeighborhoodHelp.git
 # 2. Navigate to the project folder
 cd NeighborhoodHelp
 
-# 3. Create virtual environment
-python -m venv venv
+# 3. Install dependencies
+npm install
 
-# 4. Activate virtual environment
-# Windows
-venv\Scripts\activate
-# Mac/Linux
-source venv/bin/activate
-
-# 5. Install dependencies
-pip install -r requirements.txt
-
-# 6. Run migrations
-python manage.py migrate
-
-# 7. Run server
-python manage.py runserver
+# 4. Run the application
+npm start
 ```
 
 ---
